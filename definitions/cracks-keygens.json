@@ -11,6 +11,15 @@
     "John": {
         "process_name": ["john.exe"]
     },
+    "Hashcat": {
+	"process_name": ["hashcat32.exe",
+			 "hashcat64.exe",
+			 "hashcat32.bin",
+			 "hashcat64.bin"]
+    },
+    "DaveGrohl": {
+	"process_name": ["dave"]
+    },    
     "L0phtcrack": {
         "process_name": ["lc.exe"]
     },
