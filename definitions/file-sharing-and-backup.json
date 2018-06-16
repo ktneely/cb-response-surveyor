@@ -1,4 +1,7 @@
 {
+    "Aomei Backupper": {
+	"process_name": ["BackupperFull.exe"]
+    },
     "Backblaze": {
         "process_name": ["bztransmit.exe"]
     },
@@ -9,12 +12,14 @@
     },
     "Carbonite": {
         "process_name": ["CarboniteService.exe",
-                         "carbonitepreinstaller.exe"]
+                         "carbonitepreinstaller.exe",
+			 "carbonite"]
     },
     "CrashPlan": {
         "process_name": ["CrashPlanService.exe",
                          "CrashPlanDesktop.exe",
-                         "CrashPlanTray.exe"]
+                         "CrashPlanTray.exe",
+			 "crashplan"]
     },
     "Dropbox": {
         "domain": ["client.dropbox.com"],
@@ -30,6 +35,12 @@
     },
     "Hightail": {
         "domain": ["hightail.com"]
+    },
+    "iDrive": {
+	"process_name": ["id_tray.exe",
+			 "id_service.exe",
+			 "idrive",
+			 "IDriveDaemon"]
     },
     "ShareIt": {
         "process_name": ["shareit.exe"]
