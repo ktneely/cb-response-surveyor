@@ -3,7 +3,9 @@
 	"process_name": ["BackupperFull.exe"]
     },
     "Backblaze": {
-        "process_name": ["bztransmit.exe"]
+        "process_name": ["bztransmit.exe",
+			 "backblazebackup",
+			 "backblaze"]
     },
     "Box": {
         "process_name": ["boxsync.exe",
